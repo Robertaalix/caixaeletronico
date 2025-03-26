@@ -105,7 +105,7 @@ fun fazerTransferencia(saldo: Double, extrato: String): Double {
         println("Operação não autorizada. Saldo insuficiente.\n")
     } else {
         println("Transferência realizada com sucesso!\n")
-        println("Seu saldo atualizado é: R$ ${saldo - transferencia}\n")
+        println("Seu saldo atualizado é esse: R$ ${saldo - transferencia}\n")
         return saldo - transferencia
     }
     return saldo
